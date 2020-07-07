@@ -1,23 +1,18 @@
 {
   "name": "inferno/config",
-  "description": "Inferno Config",
+  "description": "inferno config component",
+  "type" : "library",
   "keywords": [
+    "inferno",
     "config"
   ],
   "homepage": "https://github.com/infernophp/config",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Markus Nörenberg",
-      "email": "noerenberg.markus@gmail.com",
-      "role": "Developer"
-    }
-  ],
   "require": {
-    "php": ">=7.1"
+    "php": ">=7.4"
   },
   "require-dev": {
-    "phpstan/phpstan": "^0.11.1"
+    "phpstan/phpstan": "^0.12.32"
   },
   "autoload": {
     "psr-4": {
